@@ -1,0 +1,126 @@
+#containerAdmin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 66px 10px 10px 10px;
+    /* background-color: lightslategray; */
+}
+
+#containerResultFindAdmin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 700px;
+    margin-top: 0px;
+    /* background-color: #ECF0F0; */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+#stationNotFound {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#txtStationNotFound {
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    font-size: 15px;
+}
+#btnsContainerNotFound {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#containerImgAddStation {
+    width: 100%;
+    max-width: 700px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    /* background-color: tomato; */
+}
+#linkAddStation {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+#imgAddStation {
+    width: 20px;
+    margin-right: 5px;
+}
+#txtAddStation {
+    font-size: 11px;
+    font-weight: 500;
+    color: #2B4748;
+}
+#txtAddStation:hover {
+    color:#415D5F;
+}
+
+#stationDetailAdmin {
+    font-size: 14px;
+    color: #2B4748;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+#stationAdmin {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ECF0F0;
+    border-radius: 5px;
+}
+
+#containerBtnGoBackStationAdmin {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#btnStationEdit {
+    width: 50%;
+    max-width: 100px;
+    font-size: 10px;
+    color: #2B4748;
+    font-weight: 700;
+    cursor:pointer;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -20px;
+    z-index: 2;
+    text-align: right;
+    text-decoration: none;
+}
+#btnStationEdit:hover {
+    font-size: 10px;
+    color: #415D5F;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+#titleNameStation {
+    color: #B9C400;
+    font-size: 20px;
+    margin-top: -4px;
+    margin-bottom: 10px;
+}
+#titleProductStation {
+    color: #00A583;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,25 @@
+#messageContainer{
+    width: 100%;
+    max-width: 700px;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* background-color: rosybrown;
+    background-color: #DCCF71;
+    background-color: #D3D800; */
+    border-radius: 3px;
+    margin: 0px 10px 10px 10px;
+}
+
+#messageTxt {
+    font-size: 13px;
+    color: #FFF;
+    margin-left: 10px;
+}
+
+#messageIcon {
+    width: 3%;
+    max-width: 22px;
+    margin-left: 10px;
+}

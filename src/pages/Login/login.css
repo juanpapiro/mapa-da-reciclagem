@@ -1,0 +1,97 @@
+#formContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: lightslategray; */
+}
+
+#formTitleLogin {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2B4748;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+form#login{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 300px;
+    margin-top: 20px;
+    background-color: #ECF0F0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+form#login label {
+    font-size: 14px;
+    color: #2B4748;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form#login input {
+    height: 15px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+form#login button {
+    height: 25px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #DDDF4B;
+    font-size: 14px;
+    font-weight: 700;;
+    color: #2B4748;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+form#login button:hover {  
+    background-color: #CCCE47;
+    color: #000;
+    transition: all 0.8s;
+}
+
+#formCriarConta {
+    text-align: center;
+    font-size: 14px;
+    color: #2B4748;
+}
+
+#formCriarConta a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: #2B4748;
+    cursor: pointer;
+}
+
+#formCriarConta a:hover {
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+}
+
+#msgErrorUserLogin {
+    color: #FFF;
+    background-color: #CC696D;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

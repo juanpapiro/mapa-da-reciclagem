@@ -1,0 +1,122 @@
+#formContainerRegister {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    /* background-color: lightslategray; */
+}
+
+#formTitleRegister {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2B4748;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form#register {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+    margin-top: 0px;
+    background-color: #ECF0F0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+form#register label {
+    font-size: 14px;
+    color: #2B4748;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form#register input {
+    height: 15px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+form#register button {
+    height: 25px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #DDDF4B;
+    font-size: 14px;
+    font-weight: 700;;
+    color: #2B4748;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+form#register button:hover {  
+    background-color: #CCCE47;
+    color: #000;
+    transition: all 0.8s;
+}
+
+#registerToInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#registerInputMiddle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#registerInputMiddleMiddle {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+#registerInputMiddleMiddleRadio {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+#registerBoxRadioButton {
+    width: 100%;
+    display: flex;
+}
+
+#labelRadio {
+    margin-top: -1px;
+    margin-right: 10%;
+    margin-left: 5px;
+}
+
+#radio {
+    margin-top: 3px;
+}
+
+#selectState {
+    width: 100%;
+    max-width: 700px;
+    height: 25px;
+    font-size: 13px;
+    border: 0;
+    border-radius: 2px;
+    background-color: #FFF;
+    color:#000;
+    padding: 5px;
+    /* -webkit-appearance: none; */
+}
+
+#msgError{
+    font-size: 11px;
+    font-weight: 500;
+    color: #CC696D;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}

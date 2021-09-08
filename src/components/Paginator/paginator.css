@@ -1,0 +1,36 @@
+#paginator {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    padding: 10px;
+}
+
+#paginator img {
+    display: flex;
+    width: 10px;
+    /* margin: 10px; */
+}
+
+#paginator img:hover {
+    opacity: 0.80;
+    cursor: pointer;
+}
+#numbersPages {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#numPage {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}

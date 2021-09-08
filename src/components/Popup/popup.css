@@ -1,0 +1,85 @@
+#containerPopup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#internPopup {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 22%;
+    bottom: 62%;
+    margin: auto;
+    padding: 10px;
+    min-width: 40%;
+    min-height: fit-content;
+    border-radius: 10px;
+    background: #F7F7DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#buttonsPopup {
+    width: 100%;
+    /* max-width: 100px; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#txtPopup {
+    font-size: 14px;
+    text-align: center;
+    color: #00A583;
+}
+
+#btnPopupYes {
+    height: 25px;
+    width: 40%;
+    max-width: 50px;
+    border: none;
+    border-radius: 2px;
+    background-color: #DDDF4B;
+    font-size: 13px;
+    font-weight: 700;;
+    color: #2B4748;
+    cursor: pointer;
+    transition: all 0.8s;
+    margin: 0px 5px 0px 5px
+}
+#btnPopupYes:hover {  
+    background-color: #CCCE47;
+    color: #000;
+    transition: all 0.8s;
+}
+#btnPopupNot {
+    height: 25px;
+    width: 40%;
+    max-width: 50px;
+    border: none;
+    border-radius: 2px;
+    background-color: #DE7C86;
+    font-size: 13px;
+    font-weight: 700;;
+    color: #FFF;
+    cursor: pointer;
+    transition: all 0.8s;
+    margin: 0px 5px 0px 5px
+}
+#btnPopupNot:hover {  
+    background-color: #CC737B;
+    color: #FFF;
+    transition: all 0.8s;
+}

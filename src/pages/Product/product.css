@@ -1,0 +1,82 @@
+#containerProducts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 66px 10px 10px 10px;
+    /* background-color: lightslategray; */
+}
+
+
+
+#titleProducts {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2B4748;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+#containerInternFindProducts {
+    width: 90%;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#containerFindProducts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+#elementFindProducts {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#selectFindProducts {
+    width: 100%;
+    max-width: 350px;
+    min-width: 55px;
+    height: 25px;
+    padding: 5px;
+    font-size: 13px;
+    border: 0;
+    border-radius: 2px;
+    background-color: #DDDF4B;
+    margin: 5px;
+    /* -webkit-appearance: none; */
+}
+
+
+
+#btnFindProducts {
+    width: 100%;
+    min-width: 55px;
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+    background-color: #2B4748;
+    font-size: 13px;
+    font-weight: 700;;
+    color: #FFF;
+    cursor: pointer;
+    transition: all 0.8s;
+    margin: 5px
+}
+#btnFindProducts:hover {
+    background-color: #04665b;  
+    cursor: pointer;
+    transition: all 0.8s;
+}

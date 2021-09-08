@@ -1,0 +1,123 @@
+#containerResultHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 700px;
+    margin: 66px 10px 10px 10px;
+    /* background-color: #ECF0F0; */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+#containerMaxValue {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+}
+
+#containerBannerHome{
+    width:90%;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bannerHome {
+   width:100%;
+   max-width: 700px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#bannerImg {
+    width: 100%;
+    margin: 0px 40px 0px 40px;
+}
+
+#containerMaxValueInternLeft {
+    width: 260px;
+    max-width: 270px;
+    margin: 10px;
+    padding: 10px 20px 10px 0px;
+    background-color: #FFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#titleMaxValueLeft {
+    width:35%;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #2B4748;
+    font-size: 18px;
+}
+#txtValueMaxValueLeft {
+    font-size: 15px;
+    margin-top: -20px;
+    color: #2B4748;
+}
+#maxValueLeft {
+    font-size: 60px;
+    color: #B9C400
+}
+#descProductLeft {
+    font-size: 15px;
+    display:flex;
+    justify-content: center;
+    color: #2B4748
+}
+#containerMaxValueInternRigth {
+    width: 260px;
+    max-width: 270px;
+    margin:10px;
+    padding:10px;
+    background-color: #FFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#txtMaxValueRigth {
+    font-size: 17px;
+    color: #2B4748
+}
+#nameStation {
+    font-size: 30px;
+    color: #B9C400
+}
+
+#containerDashsLine {
+    /* max-width: 700px; */
+    flex:1;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    margin: 0px 50px 0px 50px;
+}
+#containerDashIntern {
+    width: 260px;
+    max-width: 550px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ECF0F0;
+    border-radius: 5px;
+    flex:2;
+}
+#titleDash {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    color: #2B4748;
+    font-size: 14px;
+    text-align:center;
+}

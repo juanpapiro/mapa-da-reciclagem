@@ -1,0 +1,146 @@
+#containerPageInternStationEdit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: lightslategray; */
+}
+
+#formContainerEditRegister {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 700px;
+    margin: 20px 0px 30px 0px;
+    /* background-color: lightslategray; */
+}
+#formTitleEditRegister {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2B4748;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+form#editRegister {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 700px;
+    margin-top: 0px;
+    background-color: #ECF0F0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+form#editRegister label {
+    font-size: 14px;
+    color: #2B4748;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form#editRegister input {
+    height: 15px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+form#editRegister button {
+    height: 25px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #DDDF4B;
+    font-size: 14px;
+    font-weight: 700;;
+    color: #2B4748;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+form#editRegister button:hover {  
+    background-color: #CCCE47;
+    color: #000;
+    transition: all 0.8s;
+}
+
+#editRegisterToInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+#editRegisterInputMiddle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#editRegisterInputMiddleMiddle {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+#editRegisterBoxRadioButton {
+    width: 100%;
+    display: flex;
+}
+#editRegisterLabelRadio {
+    margin-top: -1px;
+    margin-right: 10%;
+    margin-left: 5px;
+}
+#editRegisterRadio {
+    margin-top: -1px;
+    margin-right: 10%;
+    margin-left: 5px;
+}
+
+form#editRegister button {
+    height: 25px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #DDDF4B;
+    font-size: 14px;
+    font-weight: 700;;
+    color: #2B4748;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+
+#msgError{
+    font-size: 11px;
+    font-weight: 500;
+    color: #CC696D;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+#selectStationEditState {
+    width: 100%;
+    max-width: 700px;
+    height: 25px;
+    font-size: 13px;
+    border: 0;
+    border-radius: 2px;
+    background-color: #FFF;
+    color:#000;
+    padding: 5px;
+    /* -webkit-appearance: none; */
+}
+#optionDefaultStationEditState {
+    color:#777;
+
+}

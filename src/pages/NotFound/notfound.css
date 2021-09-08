@@ -1,0 +1,24 @@
+#containerNotFound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #2B4748;
+    /* background-color: lightslategray; */
+}
+
+#imgNotFound {
+    width: 12%;
+    min-width: 100px;
+    max-width: 200px;
+}
+
+#titleNotFound {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2B4748;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
